@@ -18,7 +18,7 @@ The first is `LOG_TRANSITIONS`, which scope is limited to the application’s ro
 
 {% highlight js %}
 var App = Ember.Application.create({
-  LOG_TRANSITIONS: true;
+  LOG_TRANSITIONS: true
 });
 {% endhighlight %}
 
@@ -34,7 +34,7 @@ Toggling `LOG_VIEW_LOOKUPS` works in much the same way and is the domain of rout
 
 {% highlight js %}
 var App = Ember.Application.create({
-  LOG_VIEW_LOOKUPS: true;
+  LOG_VIEW_LOOKUPS: true
 });
 {% endhighlight %}
 
@@ -51,7 +51,7 @@ When Ember doesn’t find a controller or route definition according to the nami
 
 {% highlight js %}
 var App = Ember.Application.create({
-  LOG_ACTIVE_GENERATION: true;
+  LOG_ACTIVE_GENERATION: true
 });
 {% endhighlight %}
 
