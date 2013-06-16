@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Logging the Magic in Ember.js
-date:   2013-06-16 18:24:17
+date:   2013-06-13 20:12:17
 author: Philip Poots
 tags: logging debugging ember.js
 ---
