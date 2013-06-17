@@ -3,19 +3,22 @@ layout: none
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title type="text" xml:lang="en">{{ site.root_desc }}</title>
-  <link type="application/atom+xml" href="{{ site.url }}/feed/" rel="self"/>
-  <link type="text" href="{{ site.url }}" rel="alternate"/>
+  <title type="text" xml:lang="en">EmberWatch Blog</title>
+  <link type="application/atom+xml" href="{{ site.url }}/feed/index.xml" rel="self"/>
+  <link type="text/html" href="{{ site.url }}" rel="alternate"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}</id>
+  <id>{{ site.url }}/</id>
   <author>
-    <name>Philip Poots</name>
+    <name>EmberWatch</name>
   </author>
   <rights>Copyright (c) 2013, EmberWatch; all rights reserved.</rights>
   
   {% for post in site.posts limit:20 %}
   <entry>
     <title>{{ post.title }}</title>
+    <author>
+      <name>{{ post.author }}</name>
+    </author>
     <link href="{{ site.url }}{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <id>{{ site.url }}{{ post.id }}</id>
