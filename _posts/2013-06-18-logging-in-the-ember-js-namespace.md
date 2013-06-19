@@ -89,6 +89,6 @@ DEPRECATION: Ember.Button is deprecated and will be removed from future releases
 
 ### Conclusion
 
-The in-built logging capabilities in the `Ember` namespace might not be as useful as those in `Ember.Application` but it is helpful to be aware of them. The `LOG_BINDINGS` setting will end up being the most useful of the three.
+The in-built logging capabilities in the `Ember` namespace might not be as useful as those in `Ember.Application` but it is helpful to be aware of them. The `LOG_BINDINGS` setting will end up being the most useful of the three. &#9632;
 
 [magic]: http://blog.emberwatch.com/2013/06/13/logging-the-magic-in-ember-js.html

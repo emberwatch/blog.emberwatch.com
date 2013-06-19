@@ -100,14 +100,26 @@ p {
 }
 
 a:link, a:visited {
-  color: #666;
+  color: #e45036;
   text-decoration: none;
 }
 a:hover, a:active {
-  color: #e45036;
+  color: #333;
 }
 
 a:active {
+  text-decoration: underline;
+}
+
+.posts a:link, .posts a:visited {
+  color: #666;
+  text-decoration: none;
+}
+.posts a:hover, .posts a:active {
+  color: #e45036;
+}
+
+.posts a:active {
   text-decoration: underline;
 }
 
