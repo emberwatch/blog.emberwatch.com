@@ -166,7 +166,7 @@ Take a look at [Ember-REST on GitHub][emberrest]
 
 ### Conclusion
 
-Although Ember Data is currently only being recommended to those who are comfortable with the cutting edge, these libraries provide viable alternatives. I haven’t gone into much detail save for the basicsbut each offers a unique (though similar) approach and a variety of different features which merit further investigation. &#9632;
+Although Ember Data is currently only being recommended to those who are comfortable with the cutting edge, these libraries provide viable alternatives. I haven’t gone into much detail save for the basics, but each offers a unique (though similar) approach and a variety of different features which merit further investigation. &#9632;
 
 [nodata]: http://eviltrout.com/2013/03/23/ember-without-data.html
 [embermodel]: https://github.com/ebryn/ember-model
