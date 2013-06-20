@@ -32,7 +32,7 @@ The book itself is one-hundred and eight pages of text, code and screenshots. If
 
 Mr. Bowkett focuses intensely on the conceptual framework that Ember gives you at the expense of minor details. (Think, how do the parts fit together and what are they for, instead of, how do the individual parts work.) And this lends the book a certain longevity despite any changes that might happen in Ember’s API, making a mockery of those who voice concerns about purchasing a book on Ember before it has hit 1.0. 
 
-You are walked through a series of examples in ascending complexity, building a simple Hello World app, adding interactivity, moving on to a more complex GitHub Issues browser and finishing up by implementing a browser based chess game in Ember, complete with explanations and reflections along the way.
+You are walked through a series of examples in ascending complexity, building a simple Hello World app, adding interactivity, moving on to a more involved GitHub Issues browser and finishing up by implementing a browser based chess game in Ember, complete with explanations and reflections along the way.
 
 ### The Code
 
