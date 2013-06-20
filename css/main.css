@@ -80,6 +80,41 @@ p {
   padding: 0.5em 1em;
 }
 
+img {
+  border: 1px solid #bbb;
+}
+
+.image-caption {
+  margin-top: -1.5em;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.image-caption span {
+  color: #333;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-style: normal;
+}
+
+.footnote {
+  font-size: 1em;
+  max-width: 40em;
+  margin-top: 4em;
+}
+
+.marker {
+  margin-left: -0.7em;
+}
+
+blockquote p {
+  font-size: 1.2em;
+}
+
+blockquote em {
+  font-size: 0.9em;
+  color: #333;
+}
+
 .post, #home {
   margin-bottom: 6em;
 }
