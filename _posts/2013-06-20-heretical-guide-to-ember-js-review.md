@@ -36,7 +36,7 @@ You are walked through a series of examples in ascending complexity, building a 
 
 ### The Code
 
-Code examples are used liberally and all of the code from the book is available on GitHub as complete applications. The book was written with RC3 and does not deal with Ember Data.
+Code examples are used liberally and all of the code from the book is part of the download, split into handy snapshots. One of the projects is on GitHub as a complete application. The book was written with RC3 and does not deal with Ember Data.
 
 ### Conclusion
 
